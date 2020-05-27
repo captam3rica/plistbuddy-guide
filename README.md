@@ -1,7 +1,6 @@
 # PlistBuddy Guide
 
-Why does this doc exist?
-===
+# Why does this doc exist?
 
 With the `defaults` command showing some weird behaviors I wanted to learn another command line tool that I could work it my workflows.
 
@@ -12,14 +11,12 @@ Also because I am more of a visual learning (actually seeing the "cause" and "ef
 It should be noted that this is not an extensive guide to using `PlistBuddy` but it should get you moving in the right direction. I will try to update it as I find new ways to use `PlistBuddy` that I think might be useful for others as well. 😊
 
 
-What is PlistBuddy?
-===
+# What is PlistBuddy?
 
 `PlistBuddy` can be used to manipulate values inside of a `.plist` file aka preference lists.
 
 
-Using PlistBuddy
-===
+# Using PlistBuddy
 
 ### Binary Path
 
@@ -95,10 +92,9 @@ Examples:
 Not super helpful, IMO, if you want to know how to apply the commands 😜.
 
 
-Examples 
-===
+## Examples 
 
-Sample plist file call `plistbuddy\_plist_example.plist`
+Sample plist file call `plistbuddy_plist_example.plist`
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
