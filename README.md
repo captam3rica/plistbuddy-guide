@@ -13,7 +13,7 @@ It should be noted that this is not an extensive guide to using `PlistBuddy` but
 
 ## What is PlistBuddy?
 
-`PlistBuddy` can be used to manipulate values inside of a `.plist` file aka preference lists.
+`PlistBuddy` is a command line utility that can be used to manipulate values inside of a `.plist` file aka preference lists.
 
 
 ## Using PlistBuddy
