@@ -343,13 +343,15 @@ Here is how it would look to put multiple commands together to create the origin
 *Commands*
 
 ```sh
-/usr/libexec/PlistBuddy -c \
-    "add 'Palo Alto Networks':GlobalProtect:PanSetup:Prelogon integer 0" \
-    com.paloaltonetworks.GlobalProtect.settings.plist
-
+# Add the dictionary structure and Portal key value pair
 /usr/libexec/PlistBuddy -c \
     "add 'Palo Alto Networks':GlobalProtect:PanSetup:Portal \
     string vpn.example.com" com.paloaltonetworks.GlobalProtect.settings.plist
+
+# Add the Prelogon key value pair
+/usr/libexec/PlistBuddy -c \
+    "add 'Palo Alto Networks':GlobalProtect:PanSetup:Prelogon integer 0" \
+    com.paloaltonetworks.GlobalProtect.settings.plist
 ```
 
 *Printed Plist Contents*
