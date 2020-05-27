@@ -173,7 +173,7 @@ Slashes (\\) where added in the command below for readability but the command ca
 
 *Output*
 
-```json
+```
 Dict {
     GlobalProtect = Dict {
         PanSetup = Dict {
@@ -220,7 +220,7 @@ A similar command can be used if we want to return the contents of the `PanSetup
 
 *Output*
 
-```json
+```
 Dict {
     Portal = vpn.example.com
     Prelogon = 0
@@ -254,7 +254,7 @@ Similar to the `print` key word we need to define the complete "path" to the key
 
 If we print the contents of the plist we see that the `Portal` key has been updated.
 
-```json
+```
 Dict {
     Palo Alto Networks = Dict {
         GlobalProtect = Dict {
