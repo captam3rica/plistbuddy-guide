@@ -1,5 +1,7 @@
 # PlistBuddy Guide
 
+Blog post: <https://blog.bravewaffles.io/Plistbuddy-Guide>
+
 ## Why does this doc exist?
 
 With the `defaults` command showing some weird behaviors, I wanted to learn another command-line tool that I could work it my workflows.
